@@ -54,3 +54,36 @@ section{
     flex: 3;
     height: 100%;
 }
+.data-produk h1, .data-produk p{
+    margin-bottom: 3px;
+}
+.data-produk h1{
+    font-size: 15px;
+}
+.data-produk p{
+    font-size: 12px;
+}
+.price{
+    flex: 0.6;
+    font-size: 18px;
+}
+.jumlah button{
+    background-color: transparent;
+    border: none;
+    margin: 0px 6px;
+    cursor: pointer;
+}
+.jumlah button:hover{
+    color: greenyellow;
+}
+.jumlah input{
+    width: 100%;
+    text-align: center;
+    border: none;
+    font-size: 18px;
+    outline: none;
+}
+.order-section{
+    background-color: #ccc;
+    padding: 0px 13px;
+}
